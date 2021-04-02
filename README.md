@@ -17,13 +17,29 @@ O projeto consiste em um sistema de gerenciamento de pontos, onde há dois tipos
 <code><img height="20" src="https://user-content.gitlab-static.net/607662252a6b6e1d261c01e2407d0e5e99c5840e/68747470733a2f2f636c6f75642e67697468756275736572636f6e74656e742e636f6d2f6173736574732f373632393636312f32303037333133352f34653364623263322d613532622d313165362d383565312d3636316138323132303435612e676966"></code>
 
 </ul>
-Basta baixar o projeto, navegar até o diretório baixado e executar:
+Basta baixar o projeto, navegar até o diretório alvo abrir o terminal e seguir os seguintes passos:
 
-_É necessário ter node instalado_
+> É necessário ter node instalado
+
+##### Primeiro passo:
+
+```bash
+ git clone https://github.com/italosll/register.git
+```
+
+##### Segundo passo:
+
+```bash
+npm install
+# ou
+yarn
+```
+
+##### Terceiro passo:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
 ```
 
