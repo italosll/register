@@ -37,6 +37,7 @@ const Login = () => {
   const login = () => {
     retrieveJwt({
       variables: {
+        // Para facilitar os testes :)
         //input: { identifier: "admin@brainny.cc", password: "adminregister" },
         //input: { identifier: "maria@brainny.cc", password: "mariaregister" },
         //input: { identifier: "joao@brainny.cc", password: "joaoregister" },

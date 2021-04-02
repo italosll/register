@@ -16,11 +16,11 @@ interface RegistryData {
   closeDrawer: () => void;
   openMobileSideBar: () => void;
   closeMobileSideBar: () => void;
-  registerEvent: Promise<void>;
   setAtualDateTime: Dispatch<SetStateAction<String | Date>>;
   setIsRegisterHandled: Dispatch<SetStateAction<Boolean>>;
   setRegisterEvent: Dispatch<SetStateAction<Promise<void>>>;
   setIsLoading: Dispatch<SetStateAction<Boolean>>;
+  registerEvent: Promise<void>;
   isLoading: Boolean;
   atualDateTime: String | Date;
   isRegisterHandled: Boolean;

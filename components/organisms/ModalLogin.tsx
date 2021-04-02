@@ -2,13 +2,6 @@ import { ButtonLogin } from "../atoms/ButtonLogin";
 import GreenArea from "../atoms/GreenArea";
 import { InputLabel } from "../molecules/InputLabel";
 
-// h-3/5
-// sm:h-6/12 sm:bg-red-400
-// md:h-6/6 md:bg-green-900
-// lg:h-2/6 lg:border-indigo-600
-// xl:h-3/5 xl:bg-yellow-300
-// 2xl:h-2/6 2xl:bg-red-900
-
 export default function ModalLogin() {
   return (
     <>
