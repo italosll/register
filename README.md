@@ -6,7 +6,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ![Code Time](https://img.shields.io/endpoint?style=flat-square&url=https://codetime-api.datreks.com/badge/782?logoColor=white%26project=brainny%26recentMS=0%26showProject=true)
 
-O projeto consiste em um sistema de gerenciamento de pontos, onde há dois tipos de usuário, o Administrador e o Colaborador, ambos podem bater o ponto e ver os seus próprios registros, sendo que o Administrador pode também ver os registros dos colaboradores.
+O projeto consiste em um sistema de gerenciamento de pontos, onde há dois tipos de usuários, Administrador e Colaborador, ambos podem bater o ponto e ver os seus próprios registros, sendo que o Administrador pode também ver os registros dos colaboradores.
 
 <ul>
 🔧 Ferramentas utilizadas 🔧 <br/>
