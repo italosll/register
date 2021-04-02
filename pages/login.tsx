@@ -46,7 +46,6 @@ const Login = () => {
       },
     }).catch((error) => {
       alert("Ocorreu algum erro");
-      console.log(error);
     });
   };
 
@@ -61,8 +60,6 @@ const Login = () => {
     let user = data?.login?.user;
 
     if (data !== undefined) {
-      console.log("return", user);
-
       sessionStorage.setItem("userId", user?.id);
       sessionStorage.setItem(
         "userRole",

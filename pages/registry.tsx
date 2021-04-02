@@ -1,14 +1,7 @@
 import { useMutation, useQuery } from "@apollo/client";
-import { Transition } from "@headlessui/react";
 import gql from "graphql-tag";
 import { useRouter } from "next/router";
-import { AsyncLocalStorage } from "node:async_hooks";
-import React, {
-  FunctionComponent,
-  useContext,
-  useEffect,
-  useState,
-} from "react";
+import React, { FunctionComponent, useEffect, useState } from "react";
 import Loading from "../components/molecules/Loading";
 
 import DrawerDesktop from "../components/organisms/DrawerDesktop";
@@ -67,19 +60,12 @@ type Props = {
 const Registry: FunctionComponent<Props> = ({ userIdProp }) => {
   const {
     isDrawerOpen,
-    isRegisterHandled,
-    setIsRegisterHandled,
-    atualDateTime,
     setAtualDateTime,
-    closeDrawer,
-    setRegisterEvent,
-    registerEvent,
     isLoading,
     setIsLoading,
   } = React.useContext(RegistryContext);
 
   const { data } = useQuery(getMyRegistry(userIdProp));
-  //const [register, { error, loading }] = useMutation(REGISTERDATETIME);
   const [userId, setUserId] = useState("");
   const [userName, setUserName] = useState("");
   const [userRole, setUserRole] = useState("");
@@ -92,44 +78,6 @@ const Registry: FunctionComponent<Props> = ({ userIdProp }) => {
   useEffect(() => {
     setIsLoading(loading);
   }, [loading]);
-
-  // console.log("data->", atualDateTime);
-
-  // const registerDateTime = () => {
-  //   register({
-  //     variables: {
-  //       input: {
-  //         data: { timeRegistered: "2021-04-02T07:00:48.839Z", user: "1" },
-  //       },
-  //     },
-  //   })
-  //     .then((data) => {
-  //       console.log("data", data);
-  //     })
-
-  //     .catch((error) => {
-  //       alert("Ocorreu algum erro");
-  //       console.log(error);
-  //     });
-  // };
-
-  // useEffect(() => {
-  //   console.log("teste");
-  //   registerDateTime();
-  // }, []);
-
-  // useEffect(() => {
-  //   if (isRegisterHandled) {
-  //     registerDateTime();
-  //     setIsRegisterHandled(false);
-  //   }
-  // }, [isRegisterHandled]);
-
-  // if (isRegisterHandled) {
-  //   setIsRegisterHandled(false);
-  //   console.log("fui chamado");
-  //   registerDateTime();
-  // }
 
   useEffect(() => {
     const jwt = sessionStorage.getItem("token");
@@ -144,8 +92,6 @@ const Registry: FunctionComponent<Props> = ({ userIdProp }) => {
   return (
     <>
       {isLoading && <Loading />}
-
-      {/* <Loading /> */}
 
       {userId !== "" && userIdProp === undefined && (
         <Registry userIdProp={userId} />

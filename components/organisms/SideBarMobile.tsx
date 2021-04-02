@@ -15,8 +15,6 @@ const SideBarMobile: FunctionComponent<Props> = ({ user }) => {
   const { closeMobileSideBar } = React.useContext(RegistryContext);
   const router = useRouter();
 
-  console.log(user);
-
   return (
     <div
       className="

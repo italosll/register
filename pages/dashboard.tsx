@@ -22,14 +22,8 @@ const Dashboard = () => {
   const [userId, setUserId] = useState("");
   const [userName, setUserName] = useState("");
   const [userRole, setUserRole] = useState("");
-  // if (loading) return <p>"Loading..."</p>;
-  // if (error) return <p> `Error! ${error.message}`</p>;
 
   const router = useRouter();
-
-  useEffect(() => {
-    console.log(data, error, "dash");
-  }, [data]);
 
   if (userRole !== "Administrador" && userRole !== "") {
     alert("Você não tem permissão para acessar esta página");

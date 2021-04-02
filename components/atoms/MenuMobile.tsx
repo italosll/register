@@ -13,7 +13,3 @@ export default function MenuMobile() {
     />
   );
 }
-
-// sm:bg-red-400
-// md:bg-green-900
-// lg:bg-indigo-600

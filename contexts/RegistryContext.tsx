@@ -55,9 +55,7 @@ export function RegistryProvider({ children, ...rest }) {
     setIsDrawerOpen(false);
   }, [isRegisterHandled]);
 
-  useEffect(() => {
-    //console.log("useeffect_ Contexto", isDrawerOpen);
-  }, [isDrawerOpen]);
+  useEffect(() => {}, [isDrawerOpen]);
 
   return (
     <RegistryContext.Provider

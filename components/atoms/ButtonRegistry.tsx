@@ -46,13 +46,11 @@ export const ButtonRegistry: FunctionComponent<Props> = ({ text }) => {
       },
     })
       .then((data) => {
-        console.log("data", data);
         closeDrawer();
       })
 
       .catch((error) => {
         alert("Ocorreu algum erro");
-        console.log(error);
       });
   };
 

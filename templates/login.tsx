@@ -12,8 +12,6 @@ export default function LoginTemplate() {
         w-screen h-screen 
         lg:flex flex-row
         bg-darkgray 
-
-
         "
       >
         <div
@@ -40,4 +38,3 @@ export default function LoginTemplate() {
     </>
   );
 }
-// border-4 border-blue-500

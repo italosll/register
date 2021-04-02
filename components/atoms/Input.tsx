@@ -1,13 +1,5 @@
-// type Props = {
-//   text: string;
-// };
-
 import React, { FunctionComponent } from "react";
 import { LoginContext } from "../../contexts/LoginContext";
-
-// export const TextRegular: FunctionComponent<Props> = ({ text }) => (
-//   <p className="font-display font-medium text-x">{text}</p>
-// );
 
 type Props = {
   label: string;
