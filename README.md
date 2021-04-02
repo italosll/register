@@ -1,8 +1,25 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+![Peek 02-04-2021 13-18](https://user-images.githubusercontent.com/40503929/113434867-1f1a1280-93b8-11eb-8aee-35af4c86abd5.gif)
 
-First, run the development server:
+## Register
+
+![Code Time](https://img.shields.io/endpoint?style=flat-square&url=https://codetime-api.datreks.com/badge/782?logoColor=white%26project=brainny%26recentMS=0%26showProject=true)
+
+O projeto consiste em um sistema de gerenciamento de pontos, onde há dois tipos de usuário, o Administrador e o Colaborador, ambos podem bater o ponto e ver os seus próprios registros, sendo que o Administrador pode também ver os registros dos colaboradores.
+
+<ul>
+🔧 Ferramentas utilizadas 🔧 <br/>
+<code><img height="20" src="https://camo.githubusercontent.com/affcb4d381c3f7305bd0598b9d426c17fdfc2bd7cd7f45352001834ab25f66bc/687474703a2f2f7265732e636c6f7564696e6172792e636f6d2f756e69636f646576656c6f7065722f696d6167652f75706c6f61642f76313532343737363736342f6e6578742d6a736c6f676f2e737667"></code>
+<code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png"></code>
+<code><img height="20" src="https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png"></code>
+<code><img height="20" src="https://miro.medium.com/max/632/1*5QD8DKhOjRe-gcYjozlLNQ.png"></code>
+<code><img height="20" src="https://user-content.gitlab-static.net/607662252a6b6e1d261c01e2407d0e5e99c5840e/68747470733a2f2f636c6f75642e67697468756275736572636f6e74656e742e636f6d2f6173736574732f373632393636312f32303037333133352f34653364623263322d613532622d313165362d383565312d3636316138323132303435612e676966"></code>
+
+</ul>
+Basta baixar o projeto, navegar até o diretório baixado e executar:
+
+_É necessário ter node instalado_
 
 ```bash
 npm run dev
@@ -10,25 +27,4 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Abra [http://localhost:3000](http://localhost:3000) no broswer para ver o resultado :).
